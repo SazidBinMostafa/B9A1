@@ -1,9 +1,14 @@
 /* Font Family */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700;900&display=swap');
 
 /* Common Styles */
 body {
     font-family: 'Merriweather', serif;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 /* Header */
@@ -14,11 +19,13 @@ header {
     background-image: url('images/Banner\ Image.png');
     background-repeat: no-repeat;
     border-radius: 16px;
-
-.banner-text{
-    padding: 176px 0;
-    background-color: #05050559;
+    margin-bottom: 120px;
 }
+
+.banner-text {
+    border-radius: 16px;
+    padding: 185px 0;
+    background-color: #05050565;
 }
 
 .HNY {
@@ -32,8 +39,324 @@ header {
 .banner-heading {
     margin: 0;
     color: #FFF;
-    text-align: center;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+}
+
+.NYP {
+    text-align: center;
+}
+
+/* Main Section */
+.off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.holiday-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 0 0 0;
+}
+
+.all-categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.hny-img {
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.welcome-sec {
+    height: 600px;
+    width: 1320px;
+    background-image: url('images/Vectorrr.png');
+    margin: 0 auto;
+    text-align: left;
+}
+
+.welcome {
+    height: 600px;
+    border-radius: 16px;
+    background-color: #05050565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 130px;
+}
+
+.welcome-message {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.join-now {
+    padding: 10px 20px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.join-party-sec {
+    padding: 50px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px;
+}
+
+/* Holiday Sec */
+.holiday-text {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 800;
+}
+
+.join-party {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.red-text {
+    color: #F00;
+}
+
+.join-now-btn {
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F00;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.join-now-btn-div {
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.comming-text {
+    margin: 0;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.comming-soon-text {
+    width: 350px;
+}
+
+.NBO {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.comming-soon-pic {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: fit-content;
+    padding: 10px;
+}
+
+.year-div {
+    width: 300px;
+}
+
+.year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.comming-soon-paragraph {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.comming-soon-sec {
+    display: flex;
+    margin: 0 120px 120px 120px;
+    gap: 50px;
+    align-items: center;
+}
+
+.holidays {
+    color: #F00;
+}
+
+.holiday-sale {
+    text-align: center;
+    margin: 120px;
+}
+
+.discount {
+    margin: 120px;
+    height: 650px;
+    background-image: url('images/Rectangle\ 2.png'), url('images/Rectangle\ 1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, right top;
+}
+
+.discount-offer {
+    margin-bottom: 250px;
+    margin-right: 100px;
+}
+
+.vector-hurray {
+    width: 630px;
+}
+
+.TBG {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.OAP {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.portfolio-sec {
+    margin: 0 120px;
+}
+
+.portfolio-one,
+.portfolio-two {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+/* Subscribe Section */
+.subscribe-sec {
+    margin: 120px;
+    padding: 120px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
+.subscribe-vector {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.subscribe-form {
+    border: none;
+    border-radius: 20px;
+}
+
+.subscribe-form>input {
+    margin: 0;
+    padding: 25px;
+    border: none;
+}
+
+.subscribe-btn {
+    background-color: #F00;
+    border-radius: 0px 50px 50px 0px;
+    width: 150px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.subscribe-form input[type='email'] {
+    width: 300px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+/* Footer */
+footer {
+    height: 400px;
+    padding: 120px;
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-details h5{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-div hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.link-div hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px;
+}
+.last-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
