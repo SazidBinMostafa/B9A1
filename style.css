@@ -13,10 +13,12 @@ button:hover {
 
 /* Header */
 header {
-    height: 600px;
-    width: 1320px;
+    margin: 0 120px;
+    max-height: 600px;
+    width: 100%;
     margin: 0 auto;
     background-image: url('images/Banner\ Image.png');
+    background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 16px;
     margin-bottom: 120px;
@@ -82,17 +84,21 @@ header {
     justify-content: center;
     margin-bottom: 120px;
 }
-
+.hny-img img{
+    width: 100%;
+}
 .welcome-sec {
     height: 600px;
     width: 1320px;
     background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: 0 auto;
     text-align: left;
 }
 
 .welcome {
-    height: 600px;
+    max-height: 600px;
     border-radius: 16px;
     background-color: #05050565;
     display: flex;
@@ -359,4 +365,202 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Small Screen */
+@media screen and (max-width:576px) {
+
+    /* Header */
+    header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto 50px auto;
+    }
+    .banner-text {
+        padding: 20px 0;
+    }
+    .HNY {
+        font-size: 24px;
+    }
+    .banner-heading {
+        font-size: 50px;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+    }
+    .off {
+        font-size: 50px;
+    }
+    
+    .holiday-text {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 48px 0 0 0;
+    }
+    
+    .all-categories {
+        color: #070211;
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    /* Main Section */
+    .hny-img img{
+        width: 500px;
+    }
+    .welcome-sec{
+        height: fit-content;
+        width: 500px;
+        background-size: 100%;
+    }
+    .welcome{
+        padding: 10px;
+    }
+    .welcome h1{
+        margin: 0;
+    }
+    .welcome p{
+        margin: 0;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .banner-heading{
+        font-size: 30px;
+    }
+    .vector img{
+        width: 140px;
+    }
+    .join-party-sec{
+        margin: 50px 30px;
+    }
+    .join-party h3{
+        font-size: 22px;
+    }
+    .comming-soon-sec{
+        flex-direction: column;
+    }
+    .discount{
+        border-radius: 30px;
+        margin: 80px;
+    }
+    .discount img{
+        width: 100%;
+    }
+    .vector-hurray{
+        display: none;
+    }
+    .discount-offer{
+        margin-top: 260px;
+    }
+    .portfolio-sec{
+        margin: 50px;
+    }
+    .portfolio-one , .portfolio-two{
+        flex-direction: column;
+    }
+    .subscribe-sec{
+        margin: 50px;
+        padding: 20px;
+    }
+    .subscribe-form{
+        width: 400px;
+    }
+    .subscribe-btn {
+        width: 120px;
+    }
+    
+    .subscribe-form input[type='email'] {
+        width: 200px;
+    }
+    /* Footer */
+    footer{
+        padding: 20px;
+        height: 100%;
+    }
+    .contact{
+        flex-direction: column;
+    }
+}
+/* Medium Screen */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner-text {
+        padding: 50px 0;
+    }
+    /* Main Section */
+    .hny-img img{
+        width: 500px;
+    }
+    .welcome-sec{
+        height: fit-content;
+        width: 500px;
+        background-size: 100%;
+    }
+    .welcome{
+        padding: 10px;
+    }
+    .welcome h1{
+        margin: 0;
+    }
+    .welcome p{
+        margin: 0;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .banner-heading{
+        font-size: 30px;
+    }
+    .vector img{
+        width: 140px;
+    }
+    .join-party-sec{
+        margin: 50px 30px;
+    }
+    .join-party h3{
+        font-size: 22px;
+    }
+    .comming-soon-sec{
+        flex-direction: column;
+    }
+    .discount{
+        border-radius: 30px;
+        margin: 80px;
+    }
+    .discount img{
+        width: 100%;
+    }
+    .vector-hurray{
+        display: none;
+    }
+    .portfolio-sec{
+        margin: 50px;
+    }
+    .portfolio-one , .portfolio-two{
+        flex-direction: column;
+    }
+    .subscribe-sec{
+        margin: 50px;
+        padding: 20px;
+        justify-content: center;
+    }
+    .subscribe-form{
+        width: 400px;
+    }
+    .subscribe-btn {
+        width: 120px;
+    }
+    
+    .subscribe-form input[type='email'] {
+        width: 200px;
+    }
+    /* Footer */
+    footer{
+        padding: 20px;
+        height: 100%;
+    }
+    .contact{
+        flex-direction: column;
+    }
 }
